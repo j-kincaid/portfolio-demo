@@ -2,3 +2,124 @@ img {
   margin: auto;
   max-width: 30%;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+li,
+aside,
+footer,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+h1,
+h2 {
+  color: #8c56d4;
+}
+
+h2 {
+  padding-top: 30px;
+  margin-left: 15px;
+}
+
+h3 {
+  color: #b331f1;
+}
+
+body {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fbefef;
+}
+
+p {
+  font-size: 1.25em;
+}
+nav,
+footer {
+  background-color: #c5b3d3;
+}
+
+.navbar ul {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+  justify-content: right;
+  justify-items: center;
+  font-size: 1.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 5em;
+}
+
+.hero-text h2 {
+  font-size: 1.5em;
+}
+
+.drinks {
+  background-color: #ffe2e2;
+  padding-bottom: 60px;
+}
+
+.drinks h2 {
+  font-size: 3em;
+}
+
+.drinks li {
+  padding-top: 40px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-top: 3px dotted white;
+}
+
+h3.beverage {
+  font-size: 1.5em;
+}
+
+main li:hover {
+  border: 2px solid white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  padding-top: 20px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+.beverage::before {
+  font: var(--fa-font-solid);
+  content: "\f57b";
+}
