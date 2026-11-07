@@ -3,7 +3,7 @@ img {
   max-width: 30%;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Libertinus+Keyboard&display=swap");
 
 html,
 body,
@@ -31,7 +31,11 @@ section {
 
 h1,
 h2 {
-  color: #8c56d4;
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 h2 {
@@ -40,22 +44,22 @@ h2 {
 }
 
 h3 {
-  color: #b331f1;
+  color: #af29ed;
 }
 
 body {
   font-family: "Marcellus", serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #fbefef;
+  background-color: #f5eaf5;
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1.75em;
 }
 nav,
 footer {
-  background-color: #c5b3d3;
+  background-color: #8652ae;
 }
 
 .navbar ul {
@@ -70,6 +74,7 @@ footer {
 nav a {
   color: white;
   text-decoration: none;
+  font-size: 1.25em;
 }
 
 .hero {
@@ -81,23 +86,23 @@ nav a {
 }
 
 .hero-text h2 {
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 .drinks {
-  background-color: #ffe2e2;
+  background-color: #f6dff4;
   padding-bottom: 60px;
 }
 
 .drinks h2 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .drinks li {
   padding-top: 40px;
   margin-right: 15px;
   margin-left: 15px;
-  border-top: 3px dotted white;
+  border-top: 4px dotted white;
 }
 
 h3.beverage {
