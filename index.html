@@ -15,8 +15,18 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/backToTopButton.css" />
+    <script src="../js/backToTop.js"></script>
   </head>
   <body>
+    <ul class="top-nav">
+      <li>
+        <a href="index.html">home</a>
+      </li>
+      <li>
+        <a href="contact.html">contact</a>
+      </li>
+    </ul>
     <nav class="navbar">
       <ul>
         <li><a href="#">Home</a></li>
@@ -82,6 +92,25 @@
         </ul>
       </section>
     </main>
+    <div class="back-to-top-wrapper">
+      <button onclick="scrollToTop()" class="back-to-top-btn" title="Go to top">
+        <!-- Paste in svg of chevron-up -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m4.5 15.75 7.5-7.5 7.5 7.5"
+          />
+        </svg>
+      </button>
+    </div>
     <footer id="contact">
       <p>&copy; 2026 Jessica Kincaid</p>
     </footer>
