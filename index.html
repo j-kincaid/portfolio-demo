@@ -2,21 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jessica's Mocktails and Cocktails</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Libertinus+Keyboard&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/eeb19414a4.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/backToTopButton.css" />
-    <script src="../js/backToTop.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jessica's Mocktails</title>
   </head>
   <body>
     <ul class="top-nav">
@@ -24,95 +13,23 @@
         <a href="index.html">home</a>
       </li>
       <li>
+        <a href="menu.html">menu</a>
+      </li>
+      <li>
         <a href="contact.html">contact</a>
       </li>
     </ul>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <section id="about" class="hero">
-      <div class="hero-text">
-        <h1>Sip and Code</h1>
-        <h2>Making development more delicious every day!</h2>
-        <p>Welcome to the LadyDev Bar. We're glad you're here!</p>
-        <p>Sit down, relax, and enjoy good drinks and good friends.</p>
-      </div>
+    <h1>Jessica's Mocktail Lounge</h1>
+    <h2>Mocktails with a side of Code</h2>
+    <section>
+      <h3 id="about">About</h3>
+      <img src="images/mocktail.jpg" alt="Image of mocktail" />
+      <p>A fun place to drink trendy mocktails while talking about code</p>
     </section>
-    <main class="grid-container">
-      <section id="menu" class="drinks">
-        <h2>Drink menu</h2>
-        <ul>
-          <li class="item">
-            <h3 class="beverage">Martinis</h3>
-            <p>
-              Made with our own homemade gin and dry vermouth. Choose from The
-              Classic, Lemondrop, or Chocolate.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="beverage">Wine</h3>
-            <p>
-              There are just too many to list. Ask your server for a
-              recommendation.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="beverage">Margaritas</h3>
-            <p>
-              Slushy frozen delicousness, in Peach, Strawberry, or Mango. Served
-              with a rock-salted rim and lime.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="beverage">Hot &amp; Creamy</h3>
-            <p>
-              Just what you need to kick off a night of coding. We offer
-              concoctions with coffee, Kahlua, Bailey's, and more.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="beverage">Beer</h3>
-            <p>
-              We serve the finest microbrews from around the world. How about a
-              Saison, IPA, or Stout?
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="beverage">Non alcoholic</h3>
-            <p>
-              We have plenty of NA options available to quench your thirst, like
-              lemonade, milk or soda.
-            </p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <div class="back-to-top-wrapper">
-      <button onclick="scrollToTop()" class="back-to-top-btn" title="Go to top">
-        <!-- Paste in svg of chevron-up -->
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="size-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="m4.5 15.75 7.5-7.5 7.5 7.5"
-          />
-        </svg>
-      </button>
-    </div>
-    <footer id="contact">
-      <p>&copy; 2026 Jessica Kincaid</p>
-    </footer>
+    <section>
+      <h3 id="contact">Contact</h3>
+      <p>Stay in contact with us by adding your email to the list.</p>
+    </section>
+    <footer>&copy; Jessica Kincaid 2025</footer>
   </body>
 </html>
