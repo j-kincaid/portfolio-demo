@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jessica's Mocktails | Contact</title>
+    <title>Jessica's Mocktails | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Libertinus+Keyboard&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Kalnia+Glaze:wght@100..700&family=Libertinus+Keyboard&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
     <script
@@ -39,14 +39,30 @@
     <section id="about" class="hero">
       <div class="hero-text">
         <h1>Get in touch!</h1>
-        <h2>Please send me a message through this portal.</h2>
-        <p>Welcome to the LadyDev Bar. We're glad you're here!</p>
+        <h2 class="beverage">Please send us a message through this portal.</h2>
         <p>Sit down, relax, and enjoy good drinks and good friends.</p>
+        <p>
+          After the event, enjoy finishing your project and then subscribe to our newsletter.
+        </p>
       </div>
-    </section>
     <main class="grid-container">
       <section id="menu" class="drinks">
-        <h2>Drink menu</h2>
+        <form action="" method="get" class="form-example">
+          <div class="form-example">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-example">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-example">
+            <input type="submit" value="Subscribe!" />
+          </div>
+        </form>
+
+    </section>
+        <h2></h2>
         <ul>
           <li class="item">
             <h3 class="beverage">Martinis</h3>

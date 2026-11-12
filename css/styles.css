@@ -3,8 +3,6 @@ img {
   max-width: 30%;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-
 html,
 body,
 div,
@@ -29,15 +27,27 @@ section {
   font: inherit;
 }
 
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #d0aec0;
+}
+
+/* Target the class directly wherever it appears */
+.elsie-black {
+  font-family: "Elsie", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 h1,
 h2,
 nav,
 footer {
-  .elsie-black {
-    font-family: "Elsie", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
+  font-family: "Elsie", serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 h2 {
@@ -46,7 +56,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Source Serif 4", serif;
+  font-size: 2em;
   color: #750c4f;
 }
 
@@ -73,6 +83,15 @@ footer {
   justify-items: center;
   font-size: 1.5em;
   padding-right: 20px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #000;
+}
+
+#contact a:hover {
+  color: #61063d;
 }
 
 nav a {
