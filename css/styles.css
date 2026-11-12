@@ -3,7 +3,7 @@ img {
   max-width: 30%;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Libertinus+Keyboard&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 html,
 body,
@@ -30,12 +30,14 @@ section {
 }
 
 h1,
-h2 {
-  font-family: "Kalnia Glaze", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+h2,
+nav,
+footer {
+  .elsie-black {
+    font-family: "Elsie", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
 }
 
 h2 {
@@ -44,14 +46,15 @@ h2 {
 }
 
 h3 {
-  color: #af29ed;
+  font-family: "Source Serif 4", serif;
+  color: #750c4f;
 }
 
 body {
-  font-family: "Marcellus", serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #f5eaf5;
+  background-color: #d0aec0;
 }
 
 p {
@@ -59,7 +62,7 @@ p {
 }
 nav,
 footer {
-  background-color: #8652ae;
+  background-color: #8b1362;
 }
 
 .navbar ul {
@@ -69,6 +72,7 @@ footer {
   justify-content: right;
   justify-items: center;
   font-size: 1.5em;
+  padding-right: 20px;
 }
 
 nav a {
@@ -90,7 +94,7 @@ nav a {
 }
 
 .drinks {
-  background-color: #f6dff4;
+  background-color: #d0aec0;
   padding-bottom: 60px;
 }
 
